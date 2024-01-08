@@ -1,9 +1,10 @@
 Cython>=0.22
 pystan>=2.14
-numpy>=1.10.0
+numpy>=1.21.0rc1
 pandas>=0.20.1
 matplotlib>=2.0.0
 lunardate>=0.1.5
 convertdate>=2.1.2
 holidays>=0.9.5
 setuptools-git>=1.2
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
